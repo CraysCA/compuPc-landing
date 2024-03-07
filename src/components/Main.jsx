@@ -42,7 +42,7 @@ function Main() {
         </article>
         <img src={mainImage} alt="main-image" className="w-[600px] h-[600px]" />
       </section>
-      <footer className="h-[100px] bg-[#4CC9F0] flex justify-center items-center gap-8">
+      <footer className="h-[90px] bg-[#4CC9F0] flex justify-center items-center gap-8">
         <img src={gforce} alt="" className=" rounded-sm w-[174px] h-[70px]" />
         <img src={intel} alt="" className=" rounded-sm w-[174px] h-[70px]" />
         <img src={nvidia} alt="" className=" rounded-sm w-[174px] h-[70px]" />
