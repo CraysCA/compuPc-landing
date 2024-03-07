@@ -2,7 +2,7 @@ import Logo from "../assets/logo.svg";
 function Navbar() {
   return (
     <>
-      <div className="w-full bg-[#161618] flex flex-row shrink-0 justify-between items-center px-32 h-20">
+      <div className="w-full bg-[#161618] flex flex-row shrink-0 justify-between items-center px-32 h-20  shadow-black shadow">
         <img src={Logo} alt="logo" />
 
         <nav>
