@@ -58,31 +58,32 @@ function ProductSection() {
             </p>
           </div>
           <div className="flex gap-4 pb-10">
-            <article className="w-[320px] h-[340px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
+            <article className="w-[220px] h-[240px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
               <img src={pcIcon} alt="" className="h-[100px] w-[50px]" />
               <h3 className="font-bold text-3xl">Lorem Ipsum</h3>
             </article>
-            <article className="w-[320px] h-[340px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
+            <article className="w-[220px] h-[240px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
               <img src={pcIcon} alt="" className="h-[100px] w-[50px]" />
               <h3 className="font-bold text-3xl">Lorem Ipsum</h3>
             </article>
-            <article className="w-[320px] h-[340px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
+            <article className="w-[220px] h-[240px] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
               <img src={pcIcon} alt="" className="h-[100px] w-[50px]" />
               <h3 className="font-bold text-3xl">Lorem Ipsum</h3>
             </article>
-            <article className="w-[320px] h-[340px] bg-[#4CC9F0] border border-white rounded-xl flex flex-col items-center justify-center gap-3">
+            <article className="w-[220px] h-[240px] bg-[#4CC9F0] border border-white rounded-xl flex flex-col items-center justify-center gap-3  text-black">
               <h3 className="font-bold text-3xl">Lorem Ipsum</h3>
-              <p className="text-center">
+              <p className="text-center text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna.
               </p>
-              <button className="p-3 bg-[#F72585] rounded-sm">
+              <button className="p-3 bg-[#F72585] rounded-sm text-[#fafafa]">
                 See Propierties
               </button>
             </article>
           </div>
         </div>
       </section>
+      <div className="mb-[770px]"></div>
     </>
   );
 }

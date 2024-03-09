@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar.jsx";
 import Main from "./components/Main.jsx";
 import CardSection from "./components/CardSection.jsx";
 import ProductSection from "./components/ProductSection.jsx";
+import SubscriptionSection from "./components/SuscriptionSection.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Main />
     <CardSection />
     <ProductSection />
+    <SubscriptionSection />
   </React.StrictMode>
 );

@@ -4,7 +4,7 @@ function CardSection() {
     <>
       <section className=" h-[648px] flex flex-col items-center px-[150px] gap-6 pt-24">
         <div className="text-center">
-          <h1 className="font-bold text-3xl">
+          <h1 className="font-bold text-3xl pb-6">
             Lorem ipsum dolor <span className="text-[#F72585]">sit amet,</span>
           </h1>
           <p className="max-w-full text-center">
